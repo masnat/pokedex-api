@@ -19,7 +19,7 @@ pip install requests
 # module for easy process the elements in the page
 pip install beautifulsoup4
 # module db driver for postgresql
-pip install pyscopg2
+pip install psycopg2
 # module for running multiple db driver
 pip install sqlalchemy
 ```
