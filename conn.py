@@ -6,7 +6,6 @@ password = ""
 if(password):
     password = ":"+password
 
-print(password)
 host = "localhost"
 port = 5432
 dbname = "pokedex"
