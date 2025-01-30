@@ -2,7 +2,6 @@ from conn import *
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlparse, parse_qs
 import json
-import sys
 
 class Server(BaseHTTPRequestHandler):
     
