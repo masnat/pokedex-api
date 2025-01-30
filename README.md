@@ -14,6 +14,14 @@ Pokedex-API is the simple web application that serve Pokemon's data through REST
 ## Instalation
 
 ```bash
+# install virtual environment for linux or mac (skip if you use global environment)
+# read this for the detail configuration https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
+python3 -m venv .venv
+source .venv/bin/activate
+
+# upgrade pip module if needed
+python3 -m pip install --upgrade pip
+
 # module for get the crawl page
 pip install requests
 # module for easy process the elements in the page
