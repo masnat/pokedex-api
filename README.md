@@ -34,3 +34,15 @@ python generate_table.py
 # start crawl
 python crawl_pokedex.py
 ```
+
+### Running Rest-API
+
+```bash
+# generate table
+python server.py
+```
+
+- Url for list all pokemon `http://localhost:8000/pokemons`
+- Url for list all pokemon with query params `http://localhost:8000/pokemons?include=type&page[number]=1&page[size]=10`
+- Url for get pokemon by id `http://localhost:8000/pokemons/{pokemon_id}`
+- Url for get random pokemon `http://localhost:8000/pokemons/0`
