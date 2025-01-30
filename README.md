@@ -8,8 +8,8 @@ Pokedex-API is the simple web application that serve Pokemon's data through REST
 
 ## Configuration
 
-- create database named `pokedex`
-- change database configuration in `conn.py`
+- Create database named `pokedex`. This web application using database PostgreSQL.
+- Change database configuration in `conn.py`.
 
 ## Instalation
 
@@ -26,8 +26,10 @@ pip install sqlalchemy
 
 ## Usage
 
+### Crawl Data
+
 ```bash
-#generate table
+# generate table
 python generate_table.py
 # start crawl
 python crawl_pokedex.py
