@@ -40,9 +40,9 @@ for r in rows:
     req = sess.get(source_url+pokemon_link)
     soup = BeautifulSoup(req.content, "html.parser")
     mainpage = soup.find("main", id="main")
-    p1 = mainpage.select("p")[0]
-    p2 = mainpage.select("p")[1]
-    pokemon_desc = str(p1) + str(p2)
+    p1 = mainpage.select("p")[0].text
+    p2 = mainpage.select("p")[1].text
+    pokemon_desc = str(p1) +" "+ str(p2)
 
     # print(pokemon_code)
     # print(pokemon_name)
